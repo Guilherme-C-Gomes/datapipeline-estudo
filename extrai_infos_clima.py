@@ -12,7 +12,7 @@ data_inicio = data_inicio.strftime('%Y-%m-%d')
 data_fim = data_fim.strftime('%Y-%m-%d')
 
 city = 'Boston'
-key = 'ANZQ5K8QQP8BXZ85F4EQ2FPK'
+key = 'EH4TK9WE2T7V8UYT4Q24S3EV4'
 
 URL = join('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/',
             f'{city}/{data_inicio}/{data_fim}?unitGroup=metric&include=days&key={key}&contentType=csv')
