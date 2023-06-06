@@ -20,7 +20,7 @@ URL = join('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/se
 dados = pd.read_csv(URL)
 print(dados.head())
 
-file_path = f'home/millenagena/Documents/datapipeline/semana={data_inicio}/'
+file_path = f'/home/gui/datapipeline-estudo/semana={data_inicio}/'
 os.mkdir(file_path)
 
 dados.to_csv(file_path + 'dados_brutos.csv')
